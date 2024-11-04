@@ -1,0 +1,20 @@
+{
+  "name": "uni-down",
+  "version": "1.0.0",
+  "description": "universal downloader",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev",
+    "start": "nodemon index.js"
+  },
+  "author": "John Francio",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "nayan-media-downloader": "^2.6.3",
+    "nodemon": "^3.1.7"
+  }
+}
