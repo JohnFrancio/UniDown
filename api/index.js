@@ -12,6 +12,11 @@ app.use(express.json());
 
 app.use(express.json()); // For parsing JSON request bodies
 
+//check the api
+app.get("/", (req, res) => {
+  res.send("Hello World");
+});
+
 // Route to download a video from a chosen platform
 app.post("/download", async (req, res) => {
   const { url } = req.body;
