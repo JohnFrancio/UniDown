@@ -8,8 +8,6 @@ const osPath = `${os.homedir()}/Downloads/uni-down`;
 fs.mkdirSync(osPath, { recursive: true });
 
 const { instagram, ndown, tikdown, ytdown } = nayan;
-// https://youtube.com/shorts/nYXrsXRmpy0?si=qUkAI5YNxo5Ik1h1
-// https://youtu.be/HOtgFGIBL3g?si=LOyOnFnT27jJ-pP6
 async function chooseUrl(url) {
   let data, res, type;
   let choice = url.includes("facebook.com")

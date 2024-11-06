@@ -36,3 +36,5 @@ app.post("/download", async (req, res) => {
 app.listen(PORT, () => {
   console.log(`API server is running on http://${HOSTNAME}:${PORT}`);
 });
+
+module.exports = app;
